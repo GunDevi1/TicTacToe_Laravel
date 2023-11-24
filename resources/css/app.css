@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+
+.main-menu {
+    text-align: center;
+    color: rgb(142, 195, 241);
+}
+
+.main-block {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(142, 195, 241);
+}
+
+.grid-container {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 163px);
+}
+
+.grid-item {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    font-size: 64px;
+    cursor: pointer;
+}
+
+.event {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.event__message {
+    color: rgb(142, 195, 241);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    color: #fff;
+    margin-top: 5px;
+    padding: 10px 50px;
+    border-radius: 25px;
+    background-color: rgb(142, 195, 241);
+}
+
+.main-header {
+    color: rgb(142, 195, 241);
+    text-align: center;
+}
+
+.enter-block {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 25%;
+    border-radius: 25px;
+    padding: 10px;
+    color: rgb(142, 195, 241);
+}
+
+.enter-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 20px;
+    border: 1px solid rgb(142, 195, 241);
+    color: rgb(142, 195, 241);
+    border-radius: 25px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.enter-button {
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid rgb(142, 195, 241);
+    background-color: rgb(203, 227, 252);
+    cursor: pointer;
+    color: #38b8bd;
+}
+
+.error-block {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(239, 182, 182, 0.62);
+    border-radius: 25px;
+    border: 1px solid #fa4949;
+    color: #fa4949;
+}
+
+.x {
+    color: #f37171;
+}
+
+.o {
+    color: rgb(142, 210, 82);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
